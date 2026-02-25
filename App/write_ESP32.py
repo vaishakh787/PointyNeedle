@@ -70,8 +70,8 @@ def write(firmware, port, advKey):
             output("Located bootloader binary")
             partitionTable = os.path.join(path, "partition_table", "partition-table.bin")
             output("Located partitionTable binary")
-            openhaystackBinary = os.path.join(path, "openhaystack.bin")
-            output("Located openhaystack binary")
+            PointyNeedleBinary = os.path.join(path, "pointyneedle.bin")
+            output("Located pointyneedle binary")
             keyPath = os.path.join(path, "keyfile.key")
             output("Located key file")
         except Exception as e:

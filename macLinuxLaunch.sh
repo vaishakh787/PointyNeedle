@@ -2,7 +2,7 @@
 
 if ! command -v python3; then
     echo "Python 3 is not installed."
-    echo "Please install it before HayStacker can run. Thanks!"
+    echo "Please install it before PointyNeedle can run. Thanks!"
     touch pleaseInstallPython3ToRun.thankyou;
     exit 1;
 fi

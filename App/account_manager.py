@@ -1,5 +1,5 @@
 # ------
-# HayStacker Apple account login dialog
+# PointyNeedle Apple account login dialog
 # Developed by Aiden C
 # This script does not store or share your password
 # I've made the most effort to make this script simple for your reading pleasure

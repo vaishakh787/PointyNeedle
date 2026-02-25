@@ -1,5 +1,5 @@
 # -----
-# HayStacker project by Aiden C
+# PointyNeedle project by Aiden C
 # Licensed under Creative Commons BY (Attribution)
 # Created June 22nd, 2025
 #
@@ -12,7 +12,7 @@
 # OpenHaystack - seemoo-lab - https://github.com/seemoo-lab/openhaystack -
 #   ESP32 Firmware & AirTag network research 7 GUI design
 #
-# HayStacker, and it's creator, are not responsible for action taken by apple following
+# PointyNeedle, and it's creator, are not responsible for action taken by apple following
 # use of this software. Measures have been taken to ensure this project is safe for users.
 # I do not recommend using this commercially
 # -----
@@ -26,11 +26,11 @@ import tag_manager, scroll_window, account_manager
 
 # main tkinter window
 root = Tk()
-root.title("HayStacker")
+root.title("Pointy Needle")
 root.geometry("1000x500")
-icon_image = PhotoImage(file=os.path.join("media", "HayStacker64.png"))
+icon_image = PhotoImage(file=os.path.join("media", "PointyNeedle64.png"))
 root.iconphoto(True, icon_image)
-logo_image = PhotoImage(file=os.path.join("media", "HayStackerLogo.png"))
+logo_image = PhotoImage(file=os.path.join("media", "PointyNeedleLogo.png"))
 plus_image = PhotoImage(file=os.path.join("media", "plus.png"))
 reload_img = PhotoImage(file=os.path.join("media", "reload.png"))
 
@@ -53,7 +53,7 @@ headFrame.pack(side= "top", fill = "x")
 logo = Label(headFrame, image=logo_image, compound="left", borderwidth=0)
 logo.pack(side="left", padx=(10,5))
 
-title = Label(headFrame, text = "HayStacker", font=("Lexend", 13), bg=UIBG)
+title = Label(headFrame, text = "Pointy Needle", font=("Lexend", 13), bg=UIBG)
 title.pack(side = "left")
 
 deployButton = Button(headFrame, image=plus_image, bg=UIBG, borderwidth=0, command=tag_manager.newKey)

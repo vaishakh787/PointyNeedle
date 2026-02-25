@@ -1,3 +1,3 @@
-idf_component_register(SRCS "openhaystack_main.c"
+idf_component_register(SRCS "pointyneedle_main.c"
                            
                     INCLUDE_DIRS ".")

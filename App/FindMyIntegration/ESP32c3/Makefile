@@ -3,7 +3,7 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := haystacker-esp32-c3
+PROJECT_NAME := pointyneedle-esp32-c3
 
 COMPONENT_ADD_INCLUDEDIRS := components/include
 

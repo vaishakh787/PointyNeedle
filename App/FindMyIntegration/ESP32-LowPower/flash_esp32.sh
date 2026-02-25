@@ -36,7 +36,7 @@ while [[ $# -gt 0 ]]; do
             shift
         ;;
         -h|--help)
-            echo "flash_esp32.sh - Flash the OpenHaystack firmware onto an ESP32 module"
+            echo "flash_esp32.sh - Flash the PointyNeedle firmware onto an ESP32 module"
             echo ""
             echo "  This script will create a virtual environment for the required tools."
             echo ""

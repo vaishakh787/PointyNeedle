@@ -37,12 +37,12 @@ def write(firmware, port, advKey):
             print("Bootloader: ", bootloader)
             print("Partition Table: ", partitionTable)
             print("Key Path: ", keyPath)
-            print("OpenHaystack Binary: ", openhaystackBinary)
+            print("PointyNeedle Binary: ", PointyNeedleBinary)
             run_command(f"{pathToVenv} -m esptool --before no_reset --baud {baudRate} --port \"{port}\"\
             write_flash 0x0  \"{bootloader}\" \
                         0x8000  \"{partitionTable}\" \
                         0xe000  \"{keyPath}\" \
-                        0x10000 \"{openhaystackBinary}\"",
+                        0x10000 \"{PointyNeedleBinary}\"",
                         text_output,
                         output,
                         lambda: output("-----\nyay! All done!"))
@@ -70,8 +70,8 @@ def write(firmware, port, advKey):
             output("Located bootloader binary")
             partitionTable = os.path.join(path, "partition_table", "partition-table.bin")
             output("Located partitionTable binary")
-            openhaystackBinary = os.path.join(path, "openhaystack.bin")
-            output("Located openhaystack binary")
+            openhaystackBinary = os.path.join(path, "pointyneedle.bin")
+            output("Located pointyneedle binary")
             keyPath = os.path.join(path, "keyfile.key")
             output("Located key file")
         except Exception as e:

@@ -1,13 +1,13 @@
-# ![HayStacker48](https://github.com/user-attachments/assets/928ff259-e1b2-4e8a-a748-22540dbb1f68) HayStacker
+# ![PointyNeedle48](https://github.com/user-attachments/assets/928ff259-e1b2-4e8a-a748-22540dbb1f68) PointyNeedle
 🏷️ Making custom tracking _tags_ easy
 
-## What is HayStacker? 🪡
-HayStacker is a GUI application & framework for all platforms that lets _you_ create and track tags via Apple's FindMy network.
+## What is PointyNeedle? 🪡
+PointyNeedle is a GUI application & framework for all platforms that lets _you_ create and track tags via Apple's FindMy network.
 Tags don't need to connect to a network and can be tracked on any system; Windows, Linux, and Mac!
 The goal is to allow the everyday person to create tracking tags to track everyday objects (Backpacks, Bicycles, Keys, etc), and to provide a simple, cross-platform GUI interface that makes this accessible to anyone.
 
 
-![haystacker2](https://github.com/user-attachments/assets/ef3999bc-c521-4256-9ae6-2dd35a541c47)
+![PointyNeedle2](https://github.com/user-attachments/assets/ef3999bc-c521-4256-9ae6-2dd35a541c47)
 
 
 <br/>
@@ -43,7 +43,7 @@ macLinuxLaunch.sh
 
 ## Supported Firmware 💽
 
-<b>Fun Fact!</b> This project includes the binary and/or readme for each type of firmware, meaning you can customize HayStacker tag behavior to your liking if you're willing to build the firmware yourself!
+<b>Fun Fact!</b> This project includes the binary and/or readme for each type of firmware, meaning you can customize PointyNeedle tag behavior to your liking if you're willing to build the firmware yourself!
 
 <table>
   <tr>
@@ -73,7 +73,7 @@ macLinuxLaunch.sh
       Constant ping, hibernate 5 minutes, sleep 2 seconds
     </td>
     <td>
-      Every board except for ESP32-C3 & S2 (Thanks to OpenHaystack)
+      Every board except for ESP32-C3 & S2 
     </td>
   </tr>
 
@@ -88,7 +88,7 @@ macLinuxLaunch.sh
       Constant ping, hibernate 5 minutes
     </td>
     <td>
-      Binary developed as part of HayStacker
+      Binary developed as part of PointyNeedle
     </td>
   </tr>
 
@@ -172,9 +172,9 @@ within the range of your device's antenna (usually ~10 meters/30ft)
 <br/>
 
 ### Flashing to other devices
-- Unfortunately, HayStacker only supports ESP32 via GUI right now.
+- Unfortunately, PointyNeedle only supports ESP32 via GUI right now.
 - Flashing other devices must be done via the command line, using python
-- Supported binaries and flashing scripts are bundled with HayStacker at `HayStacker/App/FindMyIntegration/YourBoardType`
+- Supported binaries and flashing scripts are bundled with PointyNeedle at `PointyNeedle/App/FindMyIntegration/YourBoardType`
 - Any binary from the following sources can also be used:
   - https://github.com/seemoo-lab/openhaystack
   - https://github.com/biemster/FindMy

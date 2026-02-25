@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-echo Welcome to HayStacker^^!
+echo Welcome to PointyNeedle^^!
 
 
 :pyCheck

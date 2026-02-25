@@ -4,4 +4,4 @@ cmake_minimum_required(VERSION 3.5)
 
 set(SUPPORTED_TARGETS esp32c3)
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(openhaystack)
+project(pointyneedle-esp32-c3)

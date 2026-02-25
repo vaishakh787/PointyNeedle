@@ -111,7 +111,7 @@ def request_reports(anisette, username='', password='', useSMS=False, hours=24, 
             data = base64.b64decode(report['payload'].replace('\n', '').replace('\r', ''))
             if len(data) > 88: data = data[:4] + data[5:]
 
-            # the following is all copied from https://github.com/hatomist/openhaystack-python, thanks @hatomist!
+            # the following is all copied from https://github.com/hatomist/pointyneedle-python, thanks @hatomist!
             timestamp = int.from_bytes(data[0:4], 'big') +978307200
             # sq3.execute(f"INSERT OR REPLACE INTO reports VALUES ('{names[report['id']]}', {timestamp}, {report['datePublished']}, '{report['payload']}', '{report['id']}', {report['statusCode']})")
             if timestamp >= startdate:
