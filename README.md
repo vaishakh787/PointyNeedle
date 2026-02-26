@@ -49,6 +49,9 @@ macLinuxLaunch.sh
 
 <b>Fun Fact!</b> This project includes the binary and/or readme for each type of firmware, meaning you can customize PointyNeedle tag behavior to your liking if you're willing to build the firmware yourself!
 
+PointyNeedle also supports ESP32-S3 devices with integrated LoRa, enabling long-range communication alongside Find My tracking.  
+This allows tags to operate beyond typical Bluetooth range while still appearing in the same interface.
+
 <table>
   <tr>
     <td>
